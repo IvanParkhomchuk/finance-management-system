@@ -13,7 +13,7 @@ class User extends Authenticatable
     /** @use HasFactory<\Modules\User\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
 
-    public const TABLE_NAME = 'users';
+    public const string TABLE_NAME = 'users';
 
     protected static function newFactory()
     {
